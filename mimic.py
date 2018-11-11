@@ -61,7 +61,7 @@ def mimic_dict(filename):
         if last_word not in mimic_dict:
             mimic_dict[last_word] = []
         return mimic_dict
-            
+
 
 def print_mimic(mimic_dict, word):
     """Given mimic dict and start word, prints 200 random words."""
@@ -74,7 +74,6 @@ def print_mimic(mimic_dict, word):
         next_word = random.choice(words)
         random_sentence += next_word + ' '
     print(random_sentence)
-
 
 
 # Provided main(), calls mimic_dict() and mimic()
